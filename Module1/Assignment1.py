@@ -1,37 +1,41 @@
-#Part 1
 
-# psuedo code:
-# ask user for 2 numbers
-# compute their sum and difference
-# display the output
+def main():
+    #Part 1
 
-# gather user input and convert to integer
-num1 = int(input("Enter the first number:"))
-num2 = int(input("Enter the second number:"))
+    # psuedo code:
+    # ask user for 2 numbers
+    # compute their sum and difference
+    # display the output
 
-# compute the sum and difference
-addition = num1 + num2
-subtraction = num1 - num2
+    # gather user input and convert to integer
+    num1 = int(input("Enter the first number:"))
+    num2 = int(input("Enter the second number:"))
 
-# display the results
-print(num1,"+",num2,"is",addition)
-print(num1,"-",num2,"is",subtraction)
+    # compute the sum and difference
+    addition = num1 + num2
+    subtraction = num1 - num2
 
-#Part 2
+    # display the results
+    print(num1,"+",num2,"is",addition)
+    print(num1,"-",num2,"is",subtraction)
 
-# psuedo code:
-# ask user for 2 numbers
-# compute their product and quotient
-# display the output
+    #Part 2
 
-# gather user input and convert to integer
-num1 = int(input("Enter the first number:"))
-num2 = int(input("Enter the second number:"))
+    # psuedo code:
+    # ask user for 2 numbers
+    # compute their product and quotient
+    # display the output
 
-# compute the product and quotient
-product = num1 * num2
-quotient = num1 / num2
+    # gather user input and convert to integer
+    num1 = int(input("Enter the first number:"))
+    num2 = int(input("Enter the second number:"))
 
-# display the results
-print(num1,"*",num2,"is",product)
-print(num1,"/",num2,"is",quotient)
+    # compute the product and quotient
+    product = num1 * num2
+    quotient = num1 / num2
+
+    # display the results
+    print(num1,"*",num2,"is",product)
+    print(num1,"/",num2,"is",quotient)
+
+if __name__ ==  '__main__': main()
