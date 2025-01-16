@@ -8,6 +8,7 @@ def main():
     # display the output
 
     # gather user input and convert to integer
+    print("\nPart 1")
     num1 = int(input("Enter the first number:"))
     num2 = int(input("Enter the second number:"))
 
@@ -27,6 +28,7 @@ def main():
     # display the output
 
     # gather user input and convert to integer
+    print("\nPart 2")
     num1 = int(input("Enter the first number:"))
     num2 = int(input("Enter the second number:"))
 
