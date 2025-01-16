@@ -2,7 +2,7 @@
 def main():
     #Part 1
 
-    # psuedo code:
+    # pseudo code:
     # ask user for 2 numbers
     # compute their sum and difference
     # display the output
@@ -22,7 +22,7 @@ def main():
 
     #Part 2
 
-    # psuedo code:
+    # pseudo code:
     # ask user for 2 numbers
     # compute their product and quotient
     # display the output
