@@ -1,7 +1,8 @@
 class ItemToPurchase:
 
-    #default constructor
+    # default constructor
     def __init__(self):
+        # attributes
         self.item_name = 'none'
         self.item_price = 0.0
         self.item_quantity = 0
@@ -16,4 +17,4 @@ class ItemToPurchase:
         return self.item_price * self.item_quantity
     
     def print_item_cost(self):
-        print("{} {} @ ${} = {:.2f}".format(self.item_name,self.item_quantity,self.item_price,self.item_total())) 
+        print("{} {} @ ${:.2f} = {:.2f}".format(self.item_name,self.item_quantity,self.item_price,self.item_total())) 

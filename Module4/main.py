@@ -7,7 +7,8 @@ def main():
     name = input("Enter the item name: ")
     price = float(input("Enter the item price: "))
     quant = int(input("Enter the item quantity: "))
-
+    # formatting
+    print()
     # Parameterized Constructor
     item1 = ItemToPurchase( name, price, quant ) 
 
@@ -15,7 +16,8 @@ def main():
     name = input("Enter the item name: ")
     price = float(input("Enter the item price: "))
     quant = int(input("Enter the item quantity: "))
-
+    # formatting
+    print()
     # Parameterized Constructor
     item2 = ItemToPurchase( name, price, quant )
 
