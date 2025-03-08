@@ -1,13 +1,14 @@
 
-# Item class
+# Item class (Module 4)
 class ItemToPurchase:
 
     # parameterized constructor
-    def __init__(self,name='none', price= 0.0,quantity=0, description='none'):
+    def __init__(self,name='none', description='none', price= 0.0, quantity=0):
         self.name = name
+        self.description = description
         self.price = price
         self.quantity = quantity
-        self.description = description
+        
 
     def item_total(self):
         return self.price * self.quantity
@@ -16,7 +17,7 @@ class ItemToPurchase:
         print("{} {} @ ${:.2f} = {:.2f}".format(self.name,self.quantity,self.price,self.item_total()))
 
 
-# Shopping Cart class
+# Shopping Cart class (Module 6)
 class ShoppingCart:
     # parameterized constructor with default values
     def __init__(self, customer_name="none", current_date="January 1, 2020"):
@@ -91,8 +92,8 @@ class ShoppingCart:
             print("SHOPPING CART IS EMPTY")
         else:
             for item in self.cart_items:
-                print("{} {} @ ${:.2f} = ${:.2f}".format(item.name, item.quantity, item.price, item.item_total()))
-        print("Total: ${}".format(self.get_cost_of_cart()))
+                print("{} {} @ ${:.2f} = ${:.2f}".format(item.name, item.quantity, item.price, item.price*item.quantity))
+        print("Total: ${:.2f}".format(self.get_cost_of_cart()))
 
     def print_descriptions(self):
         print("{}'s Shopping Cart - {}".format(self.customer_name, self.current_date))
